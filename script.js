@@ -42,7 +42,7 @@ function agregarTareasEnter(event) {
 	} //Ingresa las tareas tipeadas + teclaEnter (13) y addEventListenerKeypress dará entrada.
 }
 
-//Se llaman a las funciones para el campo de entrada, por medio del click y la tecla enter.
+//Los métodos de interacción para el campo de entrada, por medio del click y la tecla enter.
 entradaBtn.addEventListener("click", agregarTareasClick);
 input.addEventListener("keypress", agregarTareasEnter);
 
